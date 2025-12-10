@@ -1,0 +1,18 @@
+.timeline-card {
+  background: var(--panel);
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 3px solid var(--accent);
+}
+.timeline-card h3 {
+  margin: 0 0 6px;
+}
+.timeline-card .date {
+  color: var(--accent);
+  font-size: 13px;
+}
+.timeline-card ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  line-height: 1.4;
+}
