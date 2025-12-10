@@ -4,16 +4,17 @@ import TimelineCard from "../components/TimelineCard.jsx";
 export default function Experience() {
   return (
     <section className="experience fade-in">
-      <h2>Experience</h2>
+      <h2>Professional Experience</h2>
 
       <TimelineCard
         title="Senior Programmer Analyst — CitiBank"
-        date="Aug 2023 – Present"
+        date="Aug 2023 – Present | Toronto, Canada"
         bullets={[
-          "Designed full-stack reporting platform using Angular + Flask",
-          "Built real-time streaming workflows with Kafka + Airflow",
-          "Architected data pipelines for high-volume financial datasets",
-          "Automated CI/CD deployments across containerized infra",
+          "Built distributed reporting platform (Angular + Flask)",
+          "Real-time streaming using Kafka + Airflow automation",
+          "60% reduction in reporting runtime via workflow optimization",
+          "Designed high-volume SQL datasets for analytics",
+          "CI/CD deployments using uDeploy & Lightspeed",
         ]}
       />
 
@@ -21,10 +22,10 @@ export default function Experience() {
         title="Lead Software Engineer — ZS Associates"
         date="Feb 2020 – May 2023"
         bullets={[
-          "Led Agile team of 8 engineers for enterprise web apps",
-          "Designed distributed APIs & automation on AWS",
-          "Built orchestrated ML pipeline jobs on EMR using Airflow",
-          "Owned code quality, reviews, and tech decision-making",
+          "Led Agile team of 8 engineers developing cloud apps",
+          "Python APIs + AWS Lambda + EC2 distributed deployment",
+          "Spark + Airflow orchestration for automated ML pipelines",
+          "Drove technical design, mentoring & code quality",
         ]}
       />
 
@@ -32,9 +33,9 @@ export default function Experience() {
         title="Senior Data Science Engineer — Gramener"
         date="Jun 2018 – Jan 2020"
         bullets={[
-          "Engineered ML-enabled dashboards and REST APIs",
-          "Built D3.js visual analytics for enterprise clients",
-          "Trained models for prediction and recommendation",
+          "Built ML-enabled dashboards & REST APIs",
+          "D3.js custom visuals and analytics delivery",
+          "Prediction & recommendation pipelines",
         ]}
       />
 
@@ -42,9 +43,9 @@ export default function Experience() {
         title="Senior Systems Engineer — Infosys"
         date="Nov 2015 – Jun 2018"
         bullets={[
-          "Developed microservices & job automation platform",
-          "Implemented auth & secure reverse-proxy architecture",
-          "Deployed scalable workloads via Docker + Linux infra",
+          "Python microservices in secure Linux environments",
+          "Docker execution platform for distributed workloads",
+          "Authz/Authn backend (Java), reverse-proxy with Nginx",
         ]}
       />
     </section>

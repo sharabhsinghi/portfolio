@@ -1,37 +1,9 @@
-.home .subtitle {
+.typing {
+  font-size: 18px;
   color: var(--accent);
-  margin-bottom: 8px;
-}
-.intro {
-  max-width: 500px;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-/* glitch effect */
-.glitch {
-  position: relative;
-  font-size: 40px;
-  color: var(--accent);
-}
-.glitch::before,
-.glitch::after {
-  content: attr(data-text);
-  position: absolute;
-  left: 0;
-}
-.glitch::before {
-  animation: glitch 1s infinite linear;
-  color: #fff2;
-}
-.glitch::after {
-  animation: glitch 1s infinite linear reverse;
-  color: #fff4;
-}
-@keyframes glitch {
-  0% { transform: translate(0); }
-  25% { transform: translate(-2px, 1px); }
-  50% { transform: translate(3px, -1px); }
-  75% { transform: translate(-1px, 2px); }
-  100% { transform: translate(0); }
+  min-height: 22px;
+  white-space: nowrap;
+  border-right: 2px solid var(--accent);
+  overflow: hidden;
+  margin-bottom: 12px;
 }
