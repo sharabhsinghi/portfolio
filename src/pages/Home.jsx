@@ -2,7 +2,7 @@ import "../styles/home.css";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const text = "Full-Stack Engineer | Distributed Systems | AI/ML | LLM Apps";
+  const text = "Full-Stack Engineer | Distributed Systems | Python | AWS | AI/ML ";
   const [display, setDisplay] = useState("");
 
   useEffect(() => {
@@ -24,8 +24,12 @@ export default function Home() {
       <p className="typing">{display}</p>
 
       <p className="intro">
-        Designing scalable systems, automation platforms, and intelligent
-        products powered by machine learning & LLMs.
+        Software Engineer with 10 years of experience in system design, full-stack development, distributed data systems, 
+        and applied AI/ML. Specialized in building cloud-native platforms, automation frameworks, and 
+        real-time analytics in financial, technology, and consulting environments. 
+        Experienced in architecture design, integrating LLMs and predictive/recommendation pipelines, 
+        leading engineering teams, and delivering production-grade solutions with scalability, reliability, 
+        and measurable business impact.
       </p>
     </section>
   );

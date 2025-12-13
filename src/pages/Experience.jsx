@@ -41,7 +41,7 @@ export default function Experience() {
       />
 
       <TimelineCard
-        title="Senior Data Science Engineer — Gramener Technologies"
+        title="Senior Data Engineer — Gramener Technologies"
         date="Jun 2018 – Jan 2020"
         bullets={[
           "Designed and built end-to-end data pipelines extracting and transforming data from AWS Redshift to support analytics and business intelligence dashboards.",
