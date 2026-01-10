@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx";
 import Experience from "./pages/Experience.jsx";
 import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
+import Rentals from "./pages/Rentals.jsx";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function App() {
@@ -20,6 +21,9 @@ export default function App() {
           </NavLink>
           <NavLink to="/projects" className="nav-link">
             Projects
+          </NavLink>
+          <NavLink to="/rentals" className="nav-link">
+            Rentals
           </NavLink>
           <NavLink to="/contact" className="nav-link">
             Contact
@@ -57,6 +61,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/rentals" element={<Rentals />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
